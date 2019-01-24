@@ -1,0 +1,32 @@
+:root {
+
+    /* Font-family */
+
+    --main-font: 'Roboto', sans-serif;
+    --add-font: 'Open Sans', sans-serif;
+    
+    /* Color */
+
+    --main-font-clr: #515151;
+    --ocean-clr: #1abc9c;
+    --nav-clr: #0f0101;
+    --white-clr: #ffffff;
+    --grey-clr: #e9f0fd;
+    --wear-bg-clr: #323232;
+    --price--bg-clr: #8c8c8c;
+    --designed-link-clr: #46bfa9;
+    --price-clr: #7fd9c7;
+    --banner-ovrl-clr: rgb(0, 0, 2, 0.522);
+    --banner-btn-bg: rgb(26, 188, 156, 0.65);
+    --sect-img-ovrl-brdr: rgb(255, 255, 255, 0.549);
+    --sect-img-ovrl: rgb(0, 0, 0, 0.549);
+    --opacity-clr: rgb(255, 255, 255, 0);
+
+    /* Font-weight */
+
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-900: 900;
+}
+
