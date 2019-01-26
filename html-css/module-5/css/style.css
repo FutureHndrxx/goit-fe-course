@@ -143,14 +143,14 @@ li {
 
 .left-button {
   left: 244px;
-  background-image: url(/img/left.png);
+  background-image: url(../img/left.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .right-button {
   right: 244px;
-  background-image: url(/img/right.png);
+  background-image: url(../img/right.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -304,25 +304,25 @@ li {
 }
 
 .overlay-button-heart {
-  background-image: url(/img/heart.png);
+  background-image: url(../img/heart.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .overlay-button-change {
-  background-image: url(/img/change.png);
+  background-image: url(../img/change.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .overlay-button-clock {
-  background-image: url(/img/clock.png);
+  background-image: url(../img/clock.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .overlay-button-cart {
-  background-image: url(/img/cart.png);
+  background-image: url(../img/cart.png);
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--wear-bg-clr);
