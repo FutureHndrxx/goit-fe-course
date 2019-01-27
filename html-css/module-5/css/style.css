@@ -173,13 +173,13 @@ li {
 
 /* Section */
 
-.section-wrapper {
-  background-color: var(--grey-clr);
-}
-
 .section {
   padding-top: 96px;
   padding-bottom: 100px;
+}
+
+.collection {
+  background-color: var(--grey-clr);
 }
 
 .section-title {
@@ -361,10 +361,6 @@ li {
 
 /* Footer */
 
-.footer-wrapper {
-  background-color: var(--wear-bg-clr);
-}
-
 .footer {
   height: 88px;
   text-align: center;
@@ -372,6 +368,10 @@ li {
   color: var(--white-clr);
   font-size: 16px;
   padding-top: 35px;
+}
+
+.footer-bg {
+  background-color: var(--wear-bg-clr);
 }
 
 .footer-p {
