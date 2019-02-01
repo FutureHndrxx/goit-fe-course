@@ -1,0 +1,26 @@
+:root {
+    /*font-family*/
+    --main-font: 'Montserrat', sans-serif;
+    --dich-font: 'Kaushan Script', cursive;
+    --sect-p-font: 'Roboto', sans-serif;
+    /*font-size*/
+    --font-sz-14: 14px;
+    --font-sz-15: 15px;
+    --font-sz-24: 24px;
+    --font-sz-30: 30px;
+    /*font-weight*/
+    --font-w-300: 300;
+    --font-w-400: 400;
+    --font-w-700: 700;
+    /*text-transform*/
+    --uppercase: uppercase;
+    /*color*/
+    --ocean-color: #95e1d3;
+    --orange-color: #f38181;
+    --grey-color: #999999;
+    --title-color: #333333;
+    --white-color: #ffffff;
+    --yellow-color: #fce38a;
+
+
+}

@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-serv-sect-1 {
+    width: 32px;
+    height: 31px;
+    background-position: -5px -5px;
+}
+
+.sprite-serv-sect-2 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -5px;
+}
+
+.sprite-serv-sect-3 {
+    width: 32px;
+    height: 28px;
+    background-position: -5px -47px;
+}
+
+.sprite-serv-sect-4 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -47px;
+}
+
+.sprite-serv-sect-5 {
+    width: 32px;
+    height: 31px;
+    background-position: -89px -5px;
+}
+
+.sprite-serv-sect-6 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -46px;
+}

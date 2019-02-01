@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-1 {
+    width: 13px;
+    height: 26px;
+    background-position: -5px -5px;
+}
+
+.sprite-2 {
+    width: 26px;
+    height: 22px;
+    background-position: -28px -5px;
+}
+
+.sprite-3 {
+    width: 21px;
+    height: 26px;
+    background-position: -64px -5px;
+}
+
+.sprite-4 {
+    width: 26px;
+    height: 26px;
+    background-position: -95px -5px;
+}
