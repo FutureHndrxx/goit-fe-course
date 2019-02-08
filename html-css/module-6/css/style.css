@@ -99,8 +99,7 @@ li {
     margin-bottom: 40px;
 }
 
-.serv-section-title::before, .team-section-title::before {
-    content: "We work with";
+.serv-section-title-span1, .team-section-title-span1 {
     display: block;
     font-family: var(--dich-font);
     font-size: var(--font-sz-24);
@@ -108,8 +107,8 @@ li {
     margin-bottom: 20px;
 }
 
-.team-section-title::before {
-    content: "Who we are";
+.serv-section-title-span2, .team-section-title-span2 {
+    display: block;
 }
 
 .serv-section-title::after, .team-section-title::after {
@@ -222,6 +221,7 @@ li {
 
 .img-cont {
     position: relative;
+    transition: transform 200ms linear;
 }
 
 .overlay {
@@ -244,8 +244,7 @@ li {
 }
 
 .img-cont:hover {
-    transform: translateX( -10px) translateY( -10px);
-    transition: transform 200ms linear;
+    transform: translate( -10px, -10px);
 }
 
 .img-cont:hover .overlay {
