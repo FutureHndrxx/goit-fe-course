@@ -1,0 +1,136 @@
+.partner-section {
+    text-align: center;
+    padding: 7rem 0 6rem 0;
+}
+
+.partner-section-title {
+    margin: 0 0 2rem 0;
+    font-size: 2.2rem;
+}
+
+.partner-section-list {
+    margin: 0;
+    padding: 0;
+}
+
+.partner-section-list-item {
+    margin-bottom: 3rem;
+}
+
+.partner-figure {
+    margin: 0 auto;
+    width: 24rem;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.img-cont {
+    display: inline-block;
+    margin: 0 auto 2rem auto;  
+    position: relative;
+}
+
+.partner-img {
+    display: block;
+}
+
+.img-cont::before {
+    content: "";
+    display: block;
+    background-image: url(../../img/spritesheet.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.img-cont2::before {
+    background-position: -40px 0;
+}
+.img-cont3::before {
+    background-position: -80px 0;
+}
+.img-cont4::before {
+    background-position: -121px 0;
+}
+
+.figcaption-p1 {
+    margin: 0 0 2rem 0;
+    font-size: 1.4rem;
+}
+
+.figcaption-p2 {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--grey-color);
+}
+
+.see-other-button {
+    width: 28rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1.3rem 0;
+    border-radius: 2rem;
+    margin: 0 auto;
+    border: 0.2rem solid var(--red-color);
+    background: none;
+    color: var(--red-color);
+}
+
+.see-other-button:hover, .see-other-button:focus {
+    -webkit-box-shadow: 10px -10px 38px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px -10px 38px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px -10px 38px -2px rgba(0, 0, 0, 0.75);
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 48em) {
+    
+    .partner-section-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .partner-section-list-item {
+        width: 50%;
+    }
+
+    .partner-figure {
+        margin-right: 0;
+    }
+    
+    .partner-figure-right {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (min-width: 90em) {
+
+    .partner-section-list {
+        justify-content: center;
+        padding-bottom: 4rem;
+    }
+
+    .partner-section-list-item {
+        width: 22rem;
+        margin: 0 2rem 0 0;
+    }
+
+    .partner-section-list-item:last-child {
+        margin-right: 0;
+    }
+
+    .partner-figure {
+        width: 22rem;
+        margin: 0;
+        padding: 0;
+    }
+
+}

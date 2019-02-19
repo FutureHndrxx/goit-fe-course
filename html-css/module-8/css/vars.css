@@ -1,0 +1,14 @@
+:root {
+
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --white-color: rgb(255, 255, 255);
+    --red-color: rgb(255, 78, 80); 
+    --black-color: rgb(51, 51, 51);
+    --grey-color: rgb(102, 102, 102);
+    
+}
+

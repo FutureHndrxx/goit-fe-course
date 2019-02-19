@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+}
+
+.montserrat-white {
+    font-family: 'Montserrat';
+    color: var(--white-color);
+}
+
+.montserrat-black {
+    font-family: 'Montserrat';
+    color: var(--black-color);
+    font-weight: 700;
+}
