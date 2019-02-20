@@ -11,7 +11,7 @@
  /* height: 100vh; */
 }
 
-.header-section {
+.header-container {
   width: 32rem;
   height: 100vh;
   margin: 0 auto;
@@ -20,6 +20,7 @@
 }
 
 .header {
+  
   padding-top: 2rem;
   display: flex;
   flex-direction: column-reverse;
@@ -115,7 +116,7 @@
 
 @media screen and (min-width: 48em) {
   
-  .header-section {
+  .header-container {
     width: 66rem;
   }
 
@@ -148,7 +149,7 @@
 
 @media screen and (min-width: 90em) {
 
-  .header-section {
+  .header-container {
     width: 94rem;
   }
 }
