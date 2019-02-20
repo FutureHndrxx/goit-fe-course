@@ -8,7 +8,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+ /* height: 100vh; */
 }
 
 .header-section {
@@ -59,6 +59,7 @@
   border: 0.2rem solid rgba(255, 255, 255, 0);
   border-radius: 1.8rem;
   background: none;
+  text-decoration: none;
   transition: border 200ms linear, color 400ms linear;
 }
 
@@ -101,7 +102,7 @@
   padding: 1.3rem 0;
   border-radius: 2rem;
   background-color: var(--red-color);
-  margin: 0 auto;
+  margin: 0 auto 3rem auto;
 }
 
 .hero-section-link:hover,
