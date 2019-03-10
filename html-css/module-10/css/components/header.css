@@ -1,0 +1,141 @@
+.container {
+    max-width: 120rem;
+    padding: 0;
+}
+
+.header-wrapper {
+    background: linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../../img/hero-sect-bg-1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100rem;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .header-wrapper {
+        background: linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../../img/hero-sect-bg-2x.jpg);
+    }
+}
+
+.header {
+    padding-top: 2.5rem;
+    margin-bottom: 16.5rem;
+}
+
+.header__logo-link {
+    display: inline-block;
+}
+
+.header__logo-span {
+    transition: color 200ms linear;
+}
+
+.header__logo-span::first-letter {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-link {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color 200ms linear;
+}
+
+.header__nav-link-span {
+    display: none;     /* для экранных читалок */
+}   
+
+.header__nav-link-icon {
+    transition: fill 200ms linear;
+}
+
+.header__logo-link:hover .header__logo-span,
+.header__logo-link:focus .header__logo-span,
+.header__nav-link:hover, .header__nav-link:focus {
+    color: var(--yellow-color);
+    text-decoration: none;
+}
+
+.header__logo-link:hover {
+    text-decoration: none;
+}
+
+.header__nav-link-icon {
+    fill: var(--white-color);
+    display: block;
+}
+
+.header__nav-link-icon:hover, .header__nav-link-icon:focus {
+    fill: var(--yellow-color);
+}
+
+.header__nav-item::after {
+    content: "";
+    display: block;
+    height: 0.3rem;
+    background-color: var(--yellow-color);
+    transform: scaleX(0);
+    transition: transform 200ms ease-in-out;
+}
+
+.header__nav-item:hover::after {
+    transform: scaleX(1);
+}
+
+.hero-section__title {
+    margin: 0 0 12rem 0;
+}
+
+.hero-section__span1 {
+    font-family: "Kaushan-script";
+    font-size: 7.2rem;
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 5.5rem;
+}
+
+.hero-section__span2 {
+    font-size: 15rem;
+    line-height: 1.0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero-section__link {
+    margin: 0 auto;
+    max-width: 16rem;
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    border: 0.3rem solid var(--white-color);
+    transition: color 200ms linear, background-color 200ms linear;
+}
+
+.hero-section__link:hover, 
+.hero-section__link:focus {
+    color: var(--black-color);
+    background-color: var(--white-color);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

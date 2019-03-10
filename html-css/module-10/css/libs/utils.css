@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img, a {
+    display: block;
+}
+
+/* F-O-N-T-S */
+
+.montserrat-white {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.montserrat-grey {
+    font-family: "Montserrat";
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+
+.montserrat-grey-reg {
+    font-family: "Montserrat";
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.roboto {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--grey-color);
+    line-height: 2.4rem;
+}
+
+.roboto-light {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--grey-color);
+    text-align: center;
+}
+
+.kaushan-script {
+    font-family: "Kaushan-script";
+    font-style: 2.4rem;
+    color: var(--black-color);
+    margin-bottom: 2rem;
+}
+
+.marg-bottom-0 {
+    margin-bottom: 0;
+}

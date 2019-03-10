@@ -1,0 +1,63 @@
+.footer {
+    height: 6rem;
+    position: relative;
+}
+
+.footer::before {
+    content: "";
+    display: block;
+    width: 120rem;
+    border-top: 0.1rem solid var(--grey-color);
+    position: absolute;
+    top: -0.1rem;
+    left: 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text {
+    margin-bottom: 0;
+}
+
+.footer__adress-link {
+    display: inline-block;
+    color: var(--pink-color);
+    transition: color 200ms linear;
+}
+
+.footer__adress-link:hover {
+    color: var(--ocean-color);
+    text-decoration: none;
+}
+
+.footer__form-email {
+    height: 4rem;
+    width: 23rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.footer__form-email:focus {
+    outline: none;
+}
+
+.footer__form-email::-webkit-input-placeholder {
+    color var(--grey-color);
+}
+
+.footer__form-submit {
+    height: 4rem;
+    width: 15rem;
+    background-color: var(--pink-color);
+    border: none;
+    transition: background-color 200ms linear;
+}
+
+.footer__form-submit:hover {
+    background-color: var(--ocean-color);
+    color: var(--white-color);
+}
