@@ -4,12 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+
     <link rel="stylesheet" href="./css/libs/normalize.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>HW-10</title>
@@ -17,247 +12,191 @@
 
   <body>
     <div class="header-wrapper">
-      <div class="container">
-        <header class="header row justify-content-between align-items-center">
-          <div class="col">
-            <a href="#" class="header__logo-link">
-              <span class="header__logo-span montserrat-white">Mo</span>
-              <span class="header__logo-span montserrat-white">Go</span>
-            </a>
-          </div>
-          <nav class="header__nav col">
-            <ul class="header__nav-list marg-bottom-0">
-              <li class="header__nav-item">
-                <a href="#" class="header__nav-link montserrat-white">About</a>
-              </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__nav-link montserrat-white"
-                  >Service</a
-                >
-              </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__nav-link montserrat-white">Work</a>
-              </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__nav-link montserrat-white">Blog</a>
-              </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__nav-link montserrat-white"
-                  >Contact</a
-                >
-              </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__nav-link">
-                  <div class="header__nav-link-container">
-                    <svg class="header__nav-link-icon" height="18" width="18">
-                      <use xlink:href="./svg/header-sprite.svg#cart"></use>
-                    </svg>
-                    <span class="header__nav-link-span">Cart</span>
-                  </div>
-                </a>
-              </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__nav-link">
-                  <div class="header__nav-link-container">
-                    <svg class="header__nav-link-icon" height="18" width="18">
-                      <use xlink:href="./svg/header-sprite.svg#search"></use>
-                    </svg>
-                    <span class="header__nav-link-span">Search</span>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-        <section class="hero-section">
-          <h1 class="hero-section__title row">
-            <span class="hero-section__span1 col-12">Creative Template</span>
-            <span class="hero-section__span2 col-12 montserrat-white"
-              >Welcome<br />to mogo</span
-            >
-          </h1>
-          <a href="#" class="hero-section__link montserrat-white">Learn more</a>
-        </section>
-      </div>
+      <header class="header container">
+        <a href="#" class="header__logo-link">
+          <span class="header__logo-span montserrat-white">Mo</span>
+          <span class="header__logo-span montserrat-white">Go</span>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list marg-bottom-0">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link montserrat-white">About</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link montserrat-white">Service</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link montserrat-white">Work</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link montserrat-white">Blog</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link montserrat-white">Contact</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                <div class="header__nav-link-cont">
+                  <svg class="header__nav-link-icon" height="18" width="18">
+                    <use xlink:href="./svg/header-sprite.svg#cart"></use>
+                  </svg>
+                  <span class="header__nav-link-span visually-hidden">Cart</span>
+                </div>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                <div class="header__nav-link-cont">
+                  <svg class="header__nav-link-icon" height="18" width="18">
+                    <use xlink:href="./svg/header-sprite.svg#search"></use>
+                  </svg>
+                  <span class="header__nav-link-span visually-hidden">Search</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero-section container">
+        <h1 class="hero-section__title">
+          <span class="hero-section__span1 kaushan-white"
+            >Creative Template</span
+          >
+          <span class="hero-section__span2 montserrat-white"
+            >Welcome<br />to mogo</span
+          >
+        </h1>
+        <a href="#" class="hero-section__link montserrat-white">Learn more</a>
+      </section>
     </div>
 
     <main>
-      <section class="services-section">
-        <div class="container">
-          <h2 class="services-section__title row">
-            <span class="services-section__title-span1 kaushan-script col-12"
-              >We work with</span
-            >
-            <span class="services-section__title-span2 montserrat-grey col-12"
-              >Amazing services</span
-            >
-          </h2>
-          <ul class="services-section-list marg-bottom-0 row">
-            <li class="services-section__item col-4">
-              <div class="row no-gutters">
-                <div class="services-section__svg-cont col-3">
-                  <svg
-                    class="services-section__item-svg"
-                    width="32"
-                    height="31"
-                  >
-                    <use
-                      xlink:href="./svg/services-section-sprite.svg#alarm"
-                    ></use>
-                  </svg>
-                </div>
-                <div class="col-9">
-                  <h3 class="services-section__item-title montserrat-grey">
-                    Photography
-                  </h3>
-                  <p class="services-section__item-text marg-bottom-0 roboto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="services-section__item col-4">
-              <div class="row no-gutters">
-                <div class="services-section__svg-cont col-3">
-                  <svg
-                    class="services-section__item-svg"
-                    width="32"
-                    height="32"
-                  >
-                    <use
-                      xlink:href="./svg/services-section-sprite.svg#line"
-                    ></use>
-                  </svg>
-                </div>
-                <div class="col-9">
-                  <h3 class="services-section__item-title montserrat-grey">
-                    Web design
-                  </h3>
-                  <p class="services-section__item-text marg-bottom-0 roboto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="services-section__item col-4">
-              <div class="row no-gutters">
-                <div class="services-section__svg-cont col-3">
-                  <svg
-                    class="services-section__item-svg"
-                    width="32"
-                    height="28"
-                  >
-                    <use
-                      xlink:href="./svg/services-section-sprite.svg#screen"
-                    ></use>
-                  </svg>
-                </div>
-                <div class="col-9">
-                  <h3 class="services-section__item-title montserrat-grey">
-                    Creativity
-                  </h3>
-                  <p class="services-section__item-text marg-bottom-0 roboto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="services-section__item col-4 col-4">
-              <div class="row no-gutters">
-                <div class="services-section__svg-cont col-3">
-                  <svg
-                    class="services-section__item-svg"
-                    width="32"
-                    height="32"
-                  >
-                    <use
-                      xlink:href="./svg/services-section-sprite.svg#book"
-                    ></use>
-                  </svg>
-                </div>
-                <div class="col-9">
-                  <h3 class="services-section__item-title montserrat-grey">
-                    SEO
-                  </h3>
-                  <p class="services-section__item-text marg-bottom-0 roboto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="services-section__item col-4 col-4">
-              <div class="row no-gutters">
-                <div class="services-section__svg-cont col-3">
-                  <svg
-                    class="services-section__item-svg"
-                    width="32"
-                    height="31"
-                  >
-                    <use
-                      xlink:href="./svg/services-section-sprite.svg#house"
-                    ></use>
-                  </svg>
-                </div>
-                <div class="col-9">
-                  <h3 class="services-section__item-title montserrat-grey">
-                    CSS/HTML
-                  </h3>
-                  <p class="services-section__item-text marg-bottom-0 roboto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="services-section__item col-4 col-4">
-              <div class="row no-gutters">
-                <div class="services-section__svg-cont col-3">
-                  <svg
-                    class="services-section__item-svg"
-                    width="32"
-                    height="32"
-                  >
-                    <use
-                      xlink:href="./svg/services-section-sprite.svg#img"
-                    ></use>
-                  </svg>
-                </div>
-                <div class="col-9">
-                  <h3 class="services-section__item-title montserrat-grey">
-                    Digital
-                  </h3>
-                  <p class="services-section__item-text marg-bottom-0 roboto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+      <section class="services-section container">
+        <h2 class="services-section__title">
+          <span class="services-section__title-span1 kaushan-script"
+            >We work with</span
+          >
+          <span class="services-section__title-span2 montserrat-grey"
+            >Amazing services</span
+          >
+        </h2>
+        <ul class="services-section-list marg-bottom-0">
+          <li class="services-section__item">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="31">
+                <use xlink:href="./svg/services-section-sprite.svg#alarm"></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+              <h3 class="services-section__item-title montserrat-grey">
+                Photography
+              </h3>
+              <p class="services-section__item-text marg-bottom-0 roboto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+          <li class="services-section__item">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="32">
+                <use xlink:href="./svg/services-section-sprite.svg#line"></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+            <h3 class="services-section__item-title montserrat-grey">
+              Web design
+            </h3>
+            <p class="services-section__item-text marg-bottom-0 roboto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          </li>
+          <li class="services-section__item">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="28">
+                <use
+                  xlink:href="./svg/services-section-sprite.svg#screen"
+                ></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+            <h3 class="services-section__item-title montserrat-grey">
+              Creativity
+            </h3>
+            <p class="services-section__item-text marg-bottom-0 roboto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          </li>
+          <li class="services-section__item col-4">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="32">
+                <use xlink:href="./svg/services-section-sprite.svg#book"></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+            <h3 class="services-section__item-title montserrat-grey">
+              SEO
+            </h3>
+            <p class="services-section__item-text marg-bottom-0 roboto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          </li>
+          <li class="services-section__item">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="31">
+                <use xlink:href="./svg/services-section-sprite.svg#house"></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+            <h3 class="services-section__item-title montserrat-grey">
+              CSS/HTML
+            </h3>
+            <p class="services-section__item-text marg-bottom-0 roboto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          </li>
+          <li class="services-section__item col-4">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="32">
+                <use xlink:href="./svg/services-section-sprite.svg#img"></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+            <h3 class="services-section__item-title montserrat-grey">
+              Digital
+            </h3>
+            <p class="services-section__item-text marg-bottom-0 roboto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          </li>
+        </ul>
       </section>
-      <section class="team-section">
-        <div class="container">
-          <h2 class="team-section__title row">
-            <span class="team-section__title-span1 kaushan-script col-12"
+      <section class="team-section container">
+          <h2 class="team-section__title">
+            <span class="team-section__title-span1 kaushan-script"
               >Who we are</span
             >
-            <span class="team-section__title-span2 montserrat-grey col-12"
+            <span class="team-section__title-span2 montserrat-grey"
               >Meet our team</span
             >
           </h2>
-          <div class="row justify-content-center">
-            <p class="team-section__text roboto col-10">
+            <p class="team-section__text roboto">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <ul class="team-section__list marg-bottom-0 col-12">
+            <ul class="team-section__list marg-bottom-0">
               <li class="team-section__item">
                 <figure class="team-section__item-figure">
                   <div class="team-section__picture-cont">
@@ -276,7 +215,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link1"
+                          class="team-section__overlay-link"
                           ><span>Facebook</span>
                           <svg
                             class="team-section__overlay-link-svg"
@@ -290,7 +229,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link2"
+                          class="team-section__overlay-link"
                           ><span>Twitter</span
                           ><svg
                             class="team-section__overlay-link-svg"
@@ -304,7 +243,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link3"
+                          class="team-section__overlay-link"
                           ><span>Pinterest</span
                           ><svg
                             class="team-section__overlay-link-svg"
@@ -318,7 +257,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link4"
+                          class="team-section__overlay-link"
                           ><span>Instagramm</span
                           ><svg
                             class="team-section__overlay-link-svg"
@@ -335,7 +274,9 @@
                     <p class="team-section__figcaption-text1 montserrat-grey">
                       Matthew Dix
                     </p>
-                    <p class="team-section__figcaption-text2 marg-bottom-0 roboto-light">
+                    <p
+                      class="team-section__figcaption-text2 marg-bottom-0 roboto-light"
+                    >
                       Graphic designer
                     </p>
                   </figcaption>
@@ -358,7 +299,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link1"
+                          class="team-section__overlay-link"
                           ><span>Facebook</span>
                           <svg
                             class="team-section__overlay-link-svg"
@@ -372,7 +313,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link2"
+                          class="team-section__overlay-link"
                           ><span>Twitter</span
                           ><svg
                             class="team-section__overlay-link-svg"
@@ -386,7 +327,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link3"
+                          class="team-section__overlay-link"
                           ><span>Pinterest</span
                           ><svg
                             class="team-section__overlay-link-svg"
@@ -400,7 +341,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link4"
+                          class="team-section__overlay-link"
                           ><span>Instagramm</span
                           ><svg
                             class="team-section__overlay-link-svg"
@@ -417,7 +358,9 @@
                     <p class="team-section__figcaption-text1 montserrat-grey">
                       Christopher Campbell
                     </p>
-                    <p class="team-section__figcaption-text2 marg-bottom-0 roboto-light">
+                    <p
+                      class="team-section__figcaption-text2 marg-bottom-0 roboto-light"
+                    >
                       Branding/UX Design
                     </p>
                   </figcaption>
@@ -440,7 +383,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link1"
+                          class="team-section__overlay-link"
                           ><span>Facebook</span>
                           <svg
                             class="team-section__overlay-link-svg"
@@ -454,7 +397,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link2"
+                          class="team-section__overlay-link"
                           ><span>Twitter</span
                           ><svg
                             class="team-section__overlay-link-svg"
@@ -468,7 +411,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link3"
+                          class="team-section__overlay-link"
                           ><span>Pinterest</span
                           ><svg
                             class="team-section__overlay-link-svg"
@@ -482,7 +425,7 @@
                       <li class="team-section__overlay-item">
                         <a
                           href="#"
-                          class="team-section__overlay-link overlay-link4"
+                          class="team-section__overlay-link"
                           ><span>Instagramm</span
                           ><svg
                             class="team-section__overlay-link-svg"
@@ -499,19 +442,19 @@
                     <p class="team-section__figcaption-text1 montserrat-grey">
                       Michael Fertig
                     </p>
-                    <p class="team-section__figcaption-text2 marg-bottom-0 roboto-light">
+                    <p
+                      class="team-section__figcaption-text2 marg-bottom-0 roboto-light"
+                    >
                       Developer
                     </p>
                   </figcaption>
                 </figure>
               </li>
             </ul>
-          </div>
-        </div>
       </section>
     </main>
     <footer class="footer container footer-flex">
-      <p class="footer__text montserrat-grey-reg">
+      <p class="footer__text montserrat-grey-reg marg-bottom-0">
         &#xa9; 2016 MoGo free PSD template by
         <adress class="footer__text-adress"
           ><a href="#" class="footer__adress-link">Laaqiq</a></adress

@@ -8,11 +8,13 @@
 
 .services-section__title-span1,
 .team-section__title-span1 {
+  display: block;
   text-align: center;
 }
 
 .services-section__title-span2,
 .team-section__title-span2 {
+  display: block;
   font-size: 3rem;
   text-align: center;
 }
@@ -28,13 +30,44 @@
   margin-top: 4rem;
 }
 
-.services-section__item:nth-child(-n + 3) {
-  margin-bottom: 9rem;
+.services-section-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.services-section__item {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services-section__svg-cont {
+  width: 25%;
 }
 
 .services-section__item-svg {
   margin: 0 auto;
-  display: block;
+}
+
+.services-section__text-cont {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.services-section__item:nth-child(-n + 3) {
+  margin-bottom: 9rem;
 }
 
 .services-section__item-title {
