@@ -1,40 +1,26 @@
 .header-wrapper {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(243,129,129,0.9)), to(rgba(252,227,138,0.9))), url(../../img/hero-sect-bg-1x.jpg);
-    background: -webkit-linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../../img/hero-sect-bg-1x.jpg);
-    background: -o-linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../../img/hero-sect-bg-1x.jpg);
-    background: linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../../img/hero-sect-bg-1x.jpg);
+    background: linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../images/hero-sect-bg-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100rem;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .header-wrapper {
-        background: -webkit-gradient(linear, left top, left bottom, from(rgba(243,129,129,0.9)), to(rgba(252,227,138,0.9))), url(../../img/hero-sect-bg-2x.jpg);
-        background: -webkit-linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../../img/hero-sect-bg-2x.jpg);
-        background: -o-linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../../img/hero-sect-bg-2x.jpg);
-        background: linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../../img/hero-sect-bg-2x.jpg);
+        background: linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../images/hero-sect-bg-2x.jpg);
     }
 }
 
 .header {
     padding-top: 2.5rem;
     margin-bottom: 16.5rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo-span {
-    -webkit-transition: color 200ms linear;
-    -o-transition: color 200ms linear;
     transition: color 200ms linear;
 }
 
@@ -47,29 +33,19 @@
 }
 
 .header__nav-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__nav-link {
     font-size: 1.4rem;
     font-weight: 400;
     text-transform: uppercase;
-    -webkit-transition: color 200ms linear;
-    -o-transition: color 200ms linear;
     transition: color 200ms linear;
 }
 
 .header__nav-link-icon {
-    -webkit-transition: fill 200ms linear;
-    -o-transition: fill 200ms linear;
     transition: fill 200ms linear;
 }
 
@@ -92,20 +68,12 @@
     display: block;
     height: 0.3rem;
     background-color: var(--yellow-color);
-    -webkit-transform: scaleX(0);
-        -ms-transform: scaleX(0);
-            transform: scaleX(0);
-    -webkit-transition: -webkit-transform 200ms ease-in-out;
-    transition: -webkit-transform 200ms ease-in-out;
-    -o-transition: transform 200ms ease-in-out;
+    transform: scaleX(0);
     transition: transform 200ms ease-in-out;
-    transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
 }
 
 .header__nav-item:hover::after {
-    -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 .hero-section__title {
@@ -134,8 +102,6 @@
     text-transform: uppercase;
     padding: 1rem 0;
     border: 0.3rem solid var(--white-color);
-    -webkit-transition: color 200ms linear, background-color 200ms linear;
-    -o-transition: color 200ms linear, background-color 200ms linear;
     transition: color 200ms linear, background-color 200ms linear;
 }
 
@@ -144,6 +110,7 @@
     color: var(--black-color);
     background-color: var(--white-color);
 }
+
 
 
 

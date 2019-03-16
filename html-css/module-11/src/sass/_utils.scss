@@ -38,7 +38,7 @@ a {
     font-family: "Montserrat";
     font-size: 3rem;
     font-weight: 700;
-    color: var(--white-color);
+    color: $white-color;
 }
 
 .montserrat-grey {
@@ -46,21 +46,21 @@ a {
     font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--black-color);
+    color: $black-color;
 }
 
 .montserrat-grey-reg {
     font-family: "Montserrat";
     font-size: 1.4rem;
     font-weight: 400;
-    color: var(--black-color);
+    color: $black-color;
 }
 
 .roboto {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 1.5rem;
-    color: var(--grey-color);
+    color: $grey-color;
     line-height: 2.4rem;
 }
 
@@ -69,21 +69,21 @@ a {
     font-weight: 300;
     font-size: 1.5rem;
     font-style: italic;
-    color: var(--grey-color);
+    color: $grey-color;
     text-align: center;
 }
 
 .kaushan-script {
     font-family: "Kaushan-script";
     font-size: 2.4rem;
-    color: var(--black-color);
+    color: $black-color;
     margin-bottom: 2rem;
 }
 
 .kaushan-white {
     font-family: "Kaushan-script";
     font-size: 7.2rem;
-    color: var(--white-color);
+    color: $white-color;
     text-align: center;
 }
 

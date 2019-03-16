@@ -1,0 +1,62 @@
+@mixin footer-before($grey-color) {
+  content: "";
+  display: block;
+  width: 120rem;
+  border-top: 0.1rem solid $grey-color;
+  position: absolute;
+  top: -0.1rem;
+  left: 0;
+}
+
+.footer {
+  height: 6rem;
+  position: relative;
+
+  &:before {
+    @include footer-before($grey-color);
+  }
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__adress-link {
+  display: inline-block;
+  color: $pink-color;
+  transition: color 200ms linear;
+
+  &:hover {
+    color: $ocean-color;
+  }
+}
+
+.footer__form-email {
+  height: 4rem;
+  width: 23rem;
+  text-align: left;
+  padding-left: 1rem;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::-webkit-input-placeholder {
+    color: $grey-color;
+  }
+}
+
+.footer__form-submit {
+  height: 4rem;
+  width: 15rem;
+  background-color: $pink-color;
+  border: none;
+  transition: background-color 200ms linear;
+
+  &:hover {
+    background-color: $ocean-color;
+    color: $white-color;
+  }
+}

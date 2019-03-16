@@ -1,0 +1,133 @@
+.header-wrapper {
+  background: linear-gradient(
+      rgba(243, 129, 129, 0.9),
+      rgba(252, 227, 138, 0.9)
+    ),
+    url(../../img/hero-sect-bg-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100rem;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header-wrapper {
+    background: linear-gradient(
+        rgba(243, 129, 129, 0.9),
+        rgba(252, 227, 138, 0.9)
+      ),
+      url(../../img/hero-sect-bg-2x.jpg);
+  }
+}
+
+.header {
+  padding-top: 2.5rem;
+  margin-bottom: 16.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo-span {
+  transition: color 200ms linear;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.header__logo-link:hover .header__logo-span,
+.header__logo-link:focus .header__logo-span {
+  color: $yellow-color;
+}
+
+
+.header__nav {
+  width: 50%;
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-link {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color 200ms linear;
+
+    &:hover {
+      color: $yellow-color;
+    }
+
+    &:focus {
+      color: $yellow-color;
+    }
+  }
+}
+
+.header__nav-link-icon {
+  fill: $white-color;
+  transition: fill 200ms linear;
+
+  &:hover {
+    fill: $yellow-color;
+  }
+
+  &:focus {
+    fill: $yellow-color;
+  }
+}
+
+.header__nav-item::after {
+  content: "";
+  display: block;
+  height: 0.3rem;
+  background-color: $yellow-color;
+  transform: scaleX(0);
+  transition: transform 200ms ease-in-out;
+}
+
+.header__nav-item:hover::after {
+  transform: scaleX(1);
+}
+
+.hero-section__title {
+  margin: 0 0 12rem 0;
+  text-align: center;
+}
+
+.hero-section__span1 {
+  display: block;
+  margin-bottom: 5.5rem;
+}
+
+.hero-section__span2 {
+  display: block;
+  font-size: 15rem;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-section__link {
+  margin: 0 auto;
+  max-width: 16rem;
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  border: 0.3rem solid $white-color;
+  transition: color 200ms linear, background-color 200ms linear;
+
+  &:hover {
+    color: $black-color;
+    background-color: $white-color;
+  }
+
+  &:focus {
+    color: $black-color;
+    background-color: $white-color;
+  }
+}

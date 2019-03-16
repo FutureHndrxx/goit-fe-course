@@ -1,28 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="copyright" content="Author" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
+    <meta name="apple-mobile-web-app-title" content="Application Name" />
+    <meta
+      name="msapplication-TileImage"
+      content="images/favicons/144x144.png"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Hw-11</title>
+    <link rel="stylesheet" href="css/styles.min.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="theme-color" content="#000000">
-  <meta name="copyright" content="Author">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
-  <meta name="apple-mobile-web-app-title" content="Application Name">
-  <meta name="msapplication-TileImage" content="images/favicons/144x144.png">
-  <meta name="msapplication-TileColor" content="#000000">
-  <meta name="format-detection" content="telephone=no">
+  <body>
+    <div class="header-wrapper">
+      <header class="header container">
+        <a href="#" class="header__logo-link">
+          <span class="header__logo-span montserrat-white">Mo</span>
+          <span class="header__logo-span montserrat-white">Go</span>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list marg-bottom-0">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link montserrat-white">About</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link montserrat-white">Service</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link montserrat-white">Work</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link montserrat-white">Blog</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link montserrat-white">Contact</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                <div class="header__nav-link-cont">
+                  <svg class="header__nav-link-icon" height="18" width="18">
+                    <use xlink:href="images/sprite.svg#icon-1"></use>
+                  </svg>
+                  <span class="header__nav-link-span visually-hidden"
+                    >Cart</span
+                  >
+                </div>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                <div class="header__nav-link-cont">
+                  <svg class="header__nav-link-icon" height="18" width="18">
+                    <use xlink:href="images/sprite.svg#icon-2"></use>
+                  </svg>
+                  <span class="header__nav-link-span visually-hidden"
+                    >Search</span
+                  >
+                </div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero-section container">
+        <h1 class="hero-section__title">
+          <span class="hero-section__span1 kaushan-white"
+            >Creative Template</span
+          >
+          <span class="hero-section__span2 montserrat-white"
+            >Welcome<br />to mogo</span
+          >
+        </h1>
+        <a href="#" class="hero-section__link montserrat-white">Learn more</a>
+      </section>
+    </div>
 
-  <title>Placeholder title</title>
-  <link rel="stylesheet" href="css/styles.min.css">
-</head>
-
-<body>
-<p class="text">sdgsdgsdgsd</p>
-  <script src="js/scripts.min.js"></script>
-</body>
-
+    <main>
+      <section class="services-section container">
+        <h2 class="services-section__title">
+          <span class="services-section__title-span1 kaushan-script"
+            >We work with</span
+          >
+          <span class="services-section__title-span2 montserrat-grey"
+            >Amazing services</span
+          >
+        </h2>
+        <ul class="services-section-list marg-bottom-0">
+          <li class="services-section__item">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="31">
+                <use xlink:href="images/sprite.svg#icon-3"></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+              <h3 class="services-section__item-title montserrat-grey">
+                Photography
+              </h3>
+              <p class="services-section__item-text marg-bottom-0 roboto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+          <li class="services-section__item">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="32">
+                <use xlink:href="images/sprite.svg#icon-4"></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+              <h3 class="services-section__item-title montserrat-grey">
+                Web design
+              </h3>
+              <p class="services-section__item-text marg-bottom-0 roboto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+          <li class="services-section__item">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="28">
+                <use
+                  xlink:href="images/sprite.svg#icon-5"
+                ></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+              <h3 class="services-section__item-title montserrat-grey">
+                Creativity
+              </h3>
+              <p class="services-section__item-text marg-bottom-0 roboto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+          <li class="services-section__item col-4">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="32">
+                <use xlink:href="images/sprite.svg#icon-6"></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+              <h3 class="services-section__item-title montserrat-grey">
+                SEO
+              </h3>
+              <p class="services-section__item-text marg-bottom-0 roboto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+          <li class="services-section__item">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="31">
+                <use xlink:href="images/sprite.svg#icon-7"></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+              <h3 class="services-section__item-title montserrat-grey">
+                CSS/HTML
+              </h3>
+              <p class="services-section__item-text marg-bottom-0 roboto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+          <li class="services-section__item col-4">
+            <div class="services-section__svg-cont">
+              <svg class="services-section__item-svg" width="32" height="32">
+                <use xlink:href="images/sprite.svg#icon-8"></use>
+              </svg>
+            </div>
+            <div class="services-section__text-cont">
+              <h3 class="services-section__item-title montserrat-grey">
+                Digital
+              </h3>
+              <p class="services-section__item-text marg-bottom-0 roboto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="team-section container">
+        <h2 class="team-section__title">
+          <span class="team-section__title-span1 kaushan-script"
+            >Who we are</span
+          >
+          <span class="team-section__title-span2 montserrat-grey"
+            >Meet our team</span
+          >
+        </h2>
+        <p class="team-section__text roboto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <ul class="team-section__list marg-bottom-0">
+          <li class="team-section__item">
+            <figure class="team-section__item-figure">
+              <div class="team-section__picture-cont">
+                <picture class="team-section__figure-picture">
+                  <source
+                    media="(min-width: 1024px)"
+                    srcset="images/team1-1x.png 1x, images/team1-2x.png 2x"
+                  />
+                  <img
+                    src="images/team1-1x.png"
+                    alt="Team-1"
+                    srcset="images/team1-2x.png 2x"
+                  />
+                </picture>
+                <ul class="team-section__overlay">
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Facebook</span>
+                      <svg
+                        class="team-section__overlay-link-svg"
+                        width="13"
+                        height="26"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-9"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Twitter</span
+                      ><svg
+                        class="team-section__overlay-link-svg"
+                        width="26"
+                        height="22"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-10"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Pinterest</span
+                      ><svg
+                        class="team-section__overlay-link-svg"
+                        width="21"
+                        height="26"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-11"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Instagramm</span
+                      ><svg
+                        class="team-section__overlay-link-svg"
+                        width="26"
+                        height="26"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-12"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <figcaption class="team-section__figcaption">
+                <p class="team-section__figcaption-text1 montserrat-grey">
+                  Matthew Dix
+                </p>
+                <p
+                  class="team-section__figcaption-text2 marg-bottom-0 roboto-light"
+                >
+                  Graphic designer
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="team-section__item">
+            <figure class="team-section__item-figure">
+              <div class="team-section__picture-cont">
+                <picture class="team-section__figure-picture">
+                  <source
+                    srcset="images/team2-1x.png 1x, images/team2-2x.png 2x"
+                  />
+                  <img
+                    src="images/team2-1x.png"
+                    alt="Team-2"
+                    srcset="images/team2-2x.png 2x"
+                  />
+                </picture>
+                <ul class="team-section__overlay">
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Facebook</span>
+                      <svg
+                        class="team-section__overlay-link-svg"
+                        width="13"
+                        height="26"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-9"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Twitter</span
+                      ><svg
+                        class="team-section__overlay-link-svg"
+                        width="26"
+                        height="22"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-10"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Pinterest</span
+                      ><svg
+                        class="team-section__overlay-link-svg"
+                        width="21"
+                        height="26"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-11"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Instagramm</span
+                      ><svg
+                        class="team-section__overlay-link-svg"
+                        width="26"
+                        height="26"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-12"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <figcaption class="team-section__figcaption">
+                <p class="team-section__figcaption-text1 montserrat-grey">
+                  Christopher Campbell
+                </p>
+                <p
+                  class="team-section__figcaption-text2 marg-bottom-0 roboto-light"
+                >
+                  Branding/UX Design
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="team-section__item">
+            <figure class="team-section__item-figure">
+              <div class="team-section__picture-cont">
+                <picture class="team-section__figure-picture">
+                  <source
+                    srcset="images/team3-1x.png 1x, images/team3-2x.png 2x"
+                  />
+                  <img
+                    src="images/team3-1x.png"
+                    alt="Team-3"
+                    srcset="images/team3-2x.png 2x"
+                  />
+                </picture>
+                <ul class="team-section__overlay">
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Facebook</span>
+                      <svg
+                        class="team-section__overlay-link-svg"
+                        width="13"
+                        height="26"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-9"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Twitter</span
+                      ><svg
+                        class="team-section__overlay-link-svg"
+                        width="26"
+                        height="22"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-10"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Pinterest</span
+                      ><svg
+                        class="team-section__overlay-link-svg"
+                        width="21"
+                        height="26"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-11"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-section__overlay-item">
+                    <a href="#" class="team-section__overlay-link"
+                      ><span>Instagramm</span
+                      ><svg
+                        class="team-section__overlay-link-svg"
+                        width="26"
+                        height="26"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-12"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <figcaption class="team-section__figcaption">
+                <p class="team-section__figcaption-text1 montserrat-grey">
+                  Michael Fertig
+                </p>
+                <p
+                  class="team-section__figcaption-text2 marg-bottom-0 roboto-light"
+                >
+                  Developer
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer container footer-flex">
+      <p class="footer__text montserrat-grey-reg marg-bottom-0">
+        &#xa9; 2016 MoGo free PSD template by
+        <adress class="footer__text-adress"
+          ><a href="#" class="footer__adress-link">Laaqiq</a></adress
+        >
+      </p>
+      <form action="#" class="footer__form" method="POST">
+        <input
+          type="email"
+          name="email"
+          class="footer__form-email roboto-light"
+          placeholder="Your Email ..."
+          required
+        />
+        <input
+          type="submit"
+          class="footer__form-submit montserrat-grey"
+          value="Subscribe"
+        />
+      </form>
+    </footer>
+    <script src="js/scripts.min.js"></script>
+  </body>
 </html>
