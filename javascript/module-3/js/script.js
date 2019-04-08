@@ -19,6 +19,9 @@ const isLoginUnique = (allLogins, login) => {
 };
 
 const addLogin = (allLogins, login) => {
+  if (login === null) {
+    return 'Отмена добавления логина!';
+  }
   if (isLoginValid(login) === true) {
     if (isLoginUnique(allLogins, login) === true) {
       allLogins.push(login);
