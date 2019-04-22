@@ -1,3 +1,5 @@
+'use strict';
+
 // Конструктор Notepad при инициализации принимает массив заметок
 const Notepad = function Notepad(notes = []) {
   this.notes = notes;
