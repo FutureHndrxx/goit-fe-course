@@ -89,11 +89,7 @@ const users = [
 
 // /////1
 
-const getAllNames = users =>
-  users.reduce((acc, user) => {
-    acc.push(user.name);
-    return acc;
-  }, []);
+const getAllNames = users => users.map(user => user.name);
 
 console.log(getAllNames(users));
 
@@ -128,12 +124,7 @@ console.log(getUserByEmail(users, 'elmahead@omatom.com'));
 // /////6
 
 const getUsersWithAge = (users, min, max) =>
-  users.reduce((acc, user) => {
-    if (user.age > min && user.age < max) {
-      acc.push(user);
-    }
-    return acc;
-  }, []);
+  users.filter(user => user.age > min && user.age < max);
 
 console.log(getUsersWithAge(users, 20, 30));
 
@@ -149,12 +140,7 @@ console.log(getTotalBalance(users)); // 20916
 // /////8
 
 const getUsersByFriend = (users, name) =>
-  users.reduce((acc, user) => {
-    if (user.friends.includes(name)) {
-      acc.push(user);
-    }
-    return acc;
-  }, []);
+  users.filter(user => user.friends.includes(name));
 
 console.log(getUsersByFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
 console.log(getUsersByFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sheree Anthony' ]
