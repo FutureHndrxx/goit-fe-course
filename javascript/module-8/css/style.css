@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: grey;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 50rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.border {
+  border: 0.2rem solid grey;
+}
+
+[type='submit'] {
+  width: 10rem;
+  height: 3rem;
+  background-color: white;
+  border: 0.2rem solid grey;
+  align-self: center;
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
+
+.p {
+  width: 20rem;
+  margin: 1rem auto 1rem auto;
+  text-align: center;
+  color: red;
+  display: none;
+}
