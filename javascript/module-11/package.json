@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://futurehndrxx.github.io/goit-fe-course/javascript",
+  "homepage": "https://futurehndrxx.github.io/goit-fe-course",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FutureHndrxx/goit-fe-course.git"
